@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "App tests",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/venv/bin/python3",
+            "module": "pytest",
+            "args": [
+                "tests/",
+                "--cov-report=term",
+                "--cov=."
+            ]
+        },
+        {
+            "name": "App runner",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/venv/bin/python3",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--reload",
+                "--port=8000"
+            ]
+        }
+    ]
+}
