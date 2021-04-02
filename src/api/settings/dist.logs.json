@@ -1,0 +1,11 @@
+{
+    "logging": {
+        "level": 30,
+        "override_module_logger": false,
+        "overrides": [
+            "uvicorn.error",
+            "urllib3.util",
+            "urllib3.connectionpool"
+        ]
+    }
+}

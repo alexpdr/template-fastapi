@@ -1,0 +1,14 @@
+# Unit testing
+pytest==6.2.2
+
+# Endpoint testing
+webtest-asgi==1.0.1
+
+# Coverage
+pytest-cov==2.11.1
+
+# Application
+fastapi==0.63.0
+
+# WebServer
+uvicorn==0.13.3

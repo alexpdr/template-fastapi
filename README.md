@@ -1,2 +1,2 @@
-# template_fastapi
-Used to initialize new service projects
+# FastAPI WebService Template
+Used to initialize new webservice projects
